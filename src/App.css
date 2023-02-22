@@ -1,0 +1,75 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Roboto;
+}
+
+.mainBackground {
+   background-image: url("./images/backgroundImage.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   min-height: 100vh;
+}
+
+.headlineSection {
+   background: #ffffff;
+   background: -webkit-linear-gradient(
+      90deg,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0.11) 50%,
+      rgba(199, 245, 255, 0) 100%
+   );
+   background: linear-gradient(
+      90deg,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0.11) 50%,
+      rgba(199, 245, 255, 0) 100%
+   );
+
+   min-height: 20vh;
+   width: 100%;
+}
+
+.min-60vh {
+   min-height: 60vh;
+}
+.min-40vh {
+   min-height: 40vh;
+}
+.min-100vh {
+   min-height: 100vh;
+}
+.bannerHeadline {
+   color: #8bc540;
+   font-size: 3rem;
+   font-weight: 500;
+}
+
+.scheduleDemo {
+   clip-path: polygon(92.3% 0%, 100% 50%, 92.2% 100%, 0% 100%, 0% 0%);
+   background-color: #8bc540;
+
+   border-radius: 0.5rem;
+}
+.colorWhite {
+   background-color: white;
+   border-radius: 0.5rem;
+   min-height: 15vh;
+}
+.colorFont {
+   color: #6d6e70;
+}
+
+.colorMint {
+   color: #8bc540;
+}
+.buttonSchedule {
+   background-color: #8bc540 !important;
+   border: 2px solid #5377257e;
+   font-size: 1.2rem;
+}
